@@ -4,7 +4,7 @@
 header {background-color: hsla(88, 82%, 73%, 1);
         font-family: 'Josefin Sans', sans-serif;
         padding: 2em 1em 4em 1em;
-        text-align: left; }
+        text-align: left;}
 
 h1 {font-weight: normal; 
     font-size: 32pt;}
@@ -22,12 +22,16 @@ h3 {font-weight: normal;
     font-size: 17pt;}
 
 p {font-family: 'Roboto', sans-serif;
+   font-size: 14pt;
    float: right;
    text-align: left;
-   width: 65%;}
+   width: 65%;
+   vertical-align: text-bottom;}
+
+article {position: absolute;}
 
 #ipsum {text-align: left;
-        padding: 35px;}
+        padding: 65px;}
 
 ul {list-style-type: none;}
 
@@ -37,8 +41,7 @@ nav {font-family: 'Josefin Sans', sans-serif;
      padding: 3px 0 0 0;}
 
 .nav {display: inline;
-      padding: 2rem;
-      }
+      padding: 2rem;}
 
 aside {font-family: 'Josefin Sans', sans-serif; 
        font-size: 16pt;
@@ -51,16 +54,18 @@ aside {font-family: 'Josefin Sans', sans-serif;
 
 .aside {padding: 1rem;}
 
-#div {background-color: hsla(198, 100%, 59%, 1);
-        width: 100%;
-        height: 100%;
+div {background-color: hsla(198, 100%, 59%, 1);
+        width: 22%;
+        height: 200px;
         float: left;
-        position: relative;}
+        clear: both;}
 
 footer {background-color: hsla(0, 0%, 86%, 1);
-        width: 75%;
+        width: 74%;
         float: right;
-        }
+        position: absolute;
+        bottom: -242px;
+        right: 7px;}
 
 #icons {text-align: right;
         font-size: 20pt;}

@@ -1,0 +1,66 @@
+* {margin: 7px;
+   padding: 0;}
+
+header {background-color: hsla(88, 82%, 73%, 1);
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 2em 1em 4em 1em;
+        text-align: left; }
+
+h1 {font-weight: normal; 
+    font-size: 32pt;}
+
+h2 {font-family: 'Josefin Sans', sans-serif;
+    font-size: 24pt;
+    background-color: hsla(60, 83%, 62%, 1);
+    text-align: center;
+    color: white;
+    width: 70%;
+    float: right;
+    padding: 1em 0 1em 2em;}
+
+h3 {font-weight: normal; 
+    font-size: 17pt;}
+
+p {font-family: 'Roboto', sans-serif;
+   float: right;
+   text-align: left;
+   width: 65%;}
+
+#ipsum {text-align: left;
+        padding: 35px;}
+
+ul {list-style-type: none;}
+
+nav {font-family: 'Josefin Sans', sans-serif; 
+     font-size: 16pt;
+     width: 100%; 
+     padding: 3px 0 0 0;}
+
+#nav {display: inline;
+      padding: 2rem;
+      }
+
+aside {font-family: 'Josefin Sans', sans-serif; 
+       font-size: 16pt;
+       background-color: hsla(191, 100%, 74%, 1);
+       color: white;
+       float: left;
+       width: 19%;
+       text-align: left;
+       padding: 2em 1em 3em 1em;}
+
+#aside {padding: 1rem;}
+
+#div {background-color: hsla(198, 100%, 59%, 1);
+        width: 100%;
+        height: 100%;
+        float: left;
+        position: relative;}
+
+footer {background-color: hsla(0, 0%, 86%, 1);
+        width: 75%;
+        float: right;
+        }
+
+#icons {text-align: right;
+        font-size: 20pt;}
